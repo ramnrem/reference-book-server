@@ -1,0 +1,28 @@
+{
+  "name": "reference-book-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon -q app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramnrem/reference-book-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramnrem/reference-book-server/issues"
+  },
+  "homepage": "https://github.com/ramnrem/reference-book-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
