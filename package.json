@@ -1,11 +1,10 @@
 {
   "name": "reference-book-server",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon -q app.js"
+    "serve": "nodemon -q --exec babel-node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +17,15 @@
   },
   "homepage": "https://github.com/ramnrem/reference-book-server#readme",
   "dependencies": {
+    "apollo-server-express": "^2.19.2",
     "express": "^4.17.1",
-    "express-graphql": "^0.12.0",
-    "graphql": "^15.5.0"
+    "mongoose": "^5.11.15"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
     "nodemon": "^2.0.7"
   }
 }
